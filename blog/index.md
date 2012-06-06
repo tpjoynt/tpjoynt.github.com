@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Hello World!
-tagline: Awesometown
+title: Blog
+tagline: Words
 ---
+
+Things are still a little rough around the edges.
 
 ## Posts
 
