@@ -4,7 +4,7 @@ title: Blog
 tagline: Words
 ---
 
-Things are still a little rough around the edges.
+Things are still a little rough around the edges, but I'll be adding content and tweaking the layout and features periodically.
 
 ## Posts
 
