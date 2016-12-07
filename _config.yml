@@ -13,4 +13,9 @@ collections:
   sections:
     output: true
 
+defaults:
+  -
+    values:
+      layout: "default"
+
 production_url : http://tpjoynt.github.com

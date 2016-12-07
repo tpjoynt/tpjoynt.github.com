@@ -1,2 +1,33 @@
 ---
 ---
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="Codes? Where you're going, you'll need codes.">
+    <meta name="author" content="Tom Joynt">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<main>
+    <!-- Header. -->
+    <header>
+        <h1 id="name">Tom Joynt</h1>
+
+        <nav id="nav-bar">
+            {% for page in site.sections %}
+            <a href="{{ page.url }}">
+                <span>{{ page.title }}</span>
+            </a>
+            {% endfor %}
+        </nav>
+    </header>
+    {{ content }}
+</main>
+</body>
+</html>
