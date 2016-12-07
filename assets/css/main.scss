@@ -1,0 +1,29 @@
+---
+---
+
+html {
+    font-family: 'Oxygen', sans-serif;
+}
+
+main {
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 75%;
+    min-width: 800px;
+}
+
+#name {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+    margin-right: 15px;
+}

@@ -9,6 +9,7 @@ author :
   twitter : tpjoynt
 
 # Used to not clutter the root directory with pages.
-include: ["_pages"]
+collections:
+ - sections
 
 production_url : http://tpjoynt.github.com

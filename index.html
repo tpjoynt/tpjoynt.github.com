@@ -17,24 +17,18 @@ title: Home
     <body>
         <main>
             <!-- Header. -->
-            <section>
-                <span id="name">Tom Joynt</span>
-                <nav>
-                    {% for page in site.pages %}
+            <header>
+                <h1 id="name">Tom Joynt</h1>
+                <nav id="nav-bar">
+                    {% for page in site.sections %}
                         <a href="{{ page.url }}">
                             <span>{{ page.title }}</span>
                         </a>
                     {% endfor %}
                 </nav>
-            </section>
+            </header>
             <section>
-                <ul>
-                    {% for post in site.posts %}
-                    <li>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
+                I'm Tom, I'm a Software Engineer and generally a good guy. I like figuring out how things work, and making them better. I try to work on things that set people up for success
             </section>
         </main>
     </body>
