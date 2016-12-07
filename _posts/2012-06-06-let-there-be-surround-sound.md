@@ -5,7 +5,6 @@ description: "My adventure with Dolby Pro Logic, XBMC and Linux audio"
 category: technical
 tags: [mediapc]
 ---
-{% include JB/setup %}
 
 ## The Problem
 

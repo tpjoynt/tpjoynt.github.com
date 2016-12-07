@@ -1,29 +1,41 @@
+---
+title: Home
+---
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Tom Joynt</title>
-  <meta name="description" content="Codes? Where you're going, you'll need codes.">
-  <meta name="author" content="Tom Joynt">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
-<body>
-    <div id="main">
-        <div id="logo">
-            <a href="blog/">
-		        <img src="assets/img/my_logo.png"/>
-		    </a>
-        </div>
-        <div id="links">
-            <a href="https://twitter.com/tpjoynt" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @tpjoynt</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            <a href="http://ca.linkedin.com/in/tpjoynt">
-                <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View Tom Joynt's profile on LinkedIn">
-            </a>
-        </div>
-    </div>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Tom Joynt</title>
+        <meta name="description" content="Codes? Where you're going, you'll need codes.">
+        <meta name="author" content="Tom Joynt">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <main>
+            <!-- Header. -->
+            <section>
+                <span id="name">Tom Joynt</span>
+                <nav>
+                    {% for page in site.pages %}
+                        <a href="{{ page.url }}">
+                            <span>{{ page.title }}</span>
+                        </a>
+                    {% endfor %}
+                </nav>
+            </section>
+            <section>
+                <ul>
+                    {% for post in site.posts %}
+                    <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+        </main>
+    </body>
 </html>

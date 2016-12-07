@@ -1,8 +1,9 @@
 body {
-    background-color: #888888;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #FFFFFF;
 }
 
-#main {
-    margin: 10% 0;
-    text-align: center;
+#name {
+    font-weight: bold;
+    font-size: 40px;
 }
