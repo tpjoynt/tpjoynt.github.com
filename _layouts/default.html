@@ -22,7 +22,8 @@
         <h1 id="name">Tom Joynt</h1>
 
         <nav id="nav-bar">
-            {% for page in site.sections %}
+            {% assign nav_items = site.html_pages | sort: 'nav-position' | reverse %}
+            {% for page in nav_items %}
             <a href="{{ page.url }}">
                 <span>{{ page.title }}</span>
             </a>

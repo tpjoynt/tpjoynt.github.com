@@ -8,10 +8,7 @@ author :
   github : tpjoynt
   twitter : tpjoynt
 
-# Used to not clutter the root directory with pages.
-collections:
-  sections:
-    output: true
+include: ['_sections']
 
 defaults:
   -
