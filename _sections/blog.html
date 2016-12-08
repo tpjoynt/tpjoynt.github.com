@@ -3,11 +3,7 @@ title: Blog
 permalink: '/blog/'
 ---
 <section>
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+    {% for post in site.posts %}
+        <h3><a href="{{ post.url }}"><strong>{{ post.date | date: "%B %e, %Y" }}</strong> {{ post.title }}</a></h3>
+    {% endfor %}
 </section>
