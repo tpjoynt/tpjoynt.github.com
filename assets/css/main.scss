@@ -12,13 +12,25 @@ main {
     padding: 15px;
 }
 
+article {
+    margin: 48px;
+}
+
+img#tom {
+    width: 128px;
+    height: 128px;
+    border-radius: 64px;
+}
+
 #name {
     display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 15px;
 }
 
 nav {
     float: right;
-    margin-top: 40px;
+    margin-top: 12px;
 }
 
 nav a {
