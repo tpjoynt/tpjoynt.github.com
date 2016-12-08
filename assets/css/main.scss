@@ -8,8 +8,8 @@ html {
 main {
     background-color: #FFFFFF;
     margin: auto;
-    width: 75%;
-    min-width: 800px;
+    max-width: 800px;
+    padding: 15px;
 }
 
 #name {
@@ -29,4 +29,38 @@ nav a {
     :hover {
         color: lightgreen;
     }
+}
+
+.social-icon {
+    font-size: 32px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    border-radius: 64px;
+    margin: 8px;
+}
+
+.social-icon.github {
+    background-color: #181717;
+}
+
+.social-icon.linkedin {
+    background-color: #0077B5;
+}
+
+.social-icon.twitter {
+    background-color: #1DA1F2;
+}
+
+.social-icon.instagram {
+    background-color: #E4405F;
+}
+
+#social-footer {
+    margin-top: 12px;
+    text-align: center;
 }
