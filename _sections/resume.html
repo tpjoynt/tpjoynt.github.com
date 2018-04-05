@@ -5,12 +5,12 @@ layout: null
 ---
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=us-ascii">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:light' rel='stylesheet' type='text/css'>
 <title>Tom Joynt Resume</title>
 <style type="text/css">
 #resume-body {
 font-family:"Open Sans",sans-serif;
-font-size:11pt;
+font-size:12pt;
 border-style:none;
 max-width:800px;
 margin-left:auto;
@@ -50,12 +50,10 @@ text-transform: uppercase;
 .section-content{
 }
 
-.section-content div {
-	padding-top:3px;
-}
-
 .job-position{
 font-style:italic;
+display: inline-block;
+margin-bottom: 4px;
 }
 
 .job-desc{
@@ -64,6 +62,11 @@ text-align:right;
 }
 
 .job-time{
+}
+
+.job-title{
+font-weight: bold;
+font-size: 18px;
 }
 
 .job-location{
@@ -83,6 +86,18 @@ float:left;
 #contact-info {
 float:right;
 text-align:right;
+}
+.row {
+clear:both;
+}
+ul {
+clear: both;
+}
+.row-left {
+	float:left;
+}
+.row-right {
+	float:right;
 }
 .job{
 margin-bottom:12px;
@@ -124,7 +139,7 @@ hr {
 <div id="info-line"></div>
 <div class="section-divider">&nbsp</div>
 <div class="section">
-	<div class="section-title">Work Experience</div>
+	<div class="section-title">Work</div>
 	<div class="section-content">
 		<div class="job">
 			<div class="job-desc">
@@ -132,39 +147,35 @@ hr {
 				<span class="job-location">New York, NY</span>
 			</div>
 			<h3>Spotify</h3>
-			<span class="job-position">Experienced Android Engineer</span>
+			<span class="job-position">Experienced Engineer (Android)</span>
 			<ul>
-				<li>Lead explicit content filtering Android experiment including C++ and backend</li>
-				<li>Designed and wrote initial player content modules: Behind the Lyrics (adapted) and Artist (new)</li>
-				<li>Early contributor to Android modularization effort</li>
+				<li>Built Stations with 2 other Android engineers, launched in Australia</li>
+				<li>Early contributor and user of Mobius, a functional reactive feature framework</li>
+				<li>Wrote explicit content core C++ functionality, contributed to Android client support</li>
 			</ul>
 		</div>
 		<div class="job">
-			<div class="job-desc">
-				<div class="job-time">June 2012 - June 2016</div>
-				<span class="job-location">New York, NY</span>
-			</div>
-			<h3>Noom Inc.</h3>
-			<span class="job-position">Software Engineer and Tech Lead</span>
+				<div class="job-desc">
+					<div class="job-time">June 2012 - June 2016</div>
+					<span class="job-location">New York, NY</span>
+				</div>
+				<h3>Noom Inc.</h3>
+				<span class="job-position">Software Engineer</span>
 			<ul>
-				<li>Core contributor for Noom Coach Android and backend</li>
-				<li>Contributor then team lead for Monetization, establishing and optimizing Pro buyflow</li>
-				<li>Led team through inception of Noom Groups, a top Noom Pro feature</li>
-				<li>Other contributions: recipes, content targeting, device integrations, retention experiments</li>
-				<li>Wrote in Java, Python, Javascript, some Objective-C</li>
-				<li>Worked with Android, Spring, MySQL, Flask, React, some Django, iOS, React Native</li>
-				<li>Engineering manager for individuals and department conducting 1:1's, goal setting, performance reviews, interviews, process improvements</li>
+				<li>Worked on Content targeting, monetization, groups, recipes, coach dashboard, retention experiments, device integrations</li>
+				<li>Android, Spring, MySQL, some iOS, React, Flask, Django</li>
+				<li>Lead Waterloo intern program: screening, interviewing, mentoring</li>
 			</ul>
 		</div>
 		<div class="job">
 			<div class="job-desc">
 				<div class="job-time">Sept. - Dec. 2011</div>
 				<span class="job-location">New York, NY</span>
-			</div>	
+			</div>
 			<h3>Noom Inc.</h3>
 			<span class="job-position">Software Engineer Intern</span>
 			<ul>
-				<li>Contributed to initial coaching module and redesign for Noom Android</li>
+				<li>Android initial coaching module, UI redesign</li>
 				<li>Maintained source control and metrics infrastructure</li>
 			</ul>
 		</div>
@@ -172,9 +183,9 @@ hr {
 			<div class="job-desc">
 				<div class="job-time">Jan. - April 2011</div>
 				<span class="job-location">Seattle, WA</span>
-			</div>	
+			</div>
 			<h3>Amazon.com</h3>
-			<span class="job-position">Software Development Engineer Intern, EBook Ingestion</span>		
+			<span class="job-position">Software Development Engineer Intern, EBook Ingestion</span>
 			<ul>
 				<li>Updated ingestion pipeline for Kindle Germany launch</li>
 				<li>Maintained ebook ingestion web application, adding productivity features for internal stakeholders</li>
@@ -199,10 +210,11 @@ hr {
 	<div class="section-title">Education</div>
 	<div class="section-content">
 	<h3>University of Waterloo</h3>
-		<div>Bachelor of Software Engineering, Co-operative Program, 2007 - 2012</div>
+		<div>Bachelor of Software Engineering (With Distinction), Co-operative Program, 2007 - 2012</div>
 	</div>
 </div>
 </div>
 <div style="clear:both;"></div>
 </body>
 </html>
+
