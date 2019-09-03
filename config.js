@@ -21,7 +21,7 @@ module.exports = {
     },
     {
       label: "Resume",
-      path: "/resume.html"
+      href: "/resume.html"
     }
   ],
   author: {
