@@ -1,0 +1,16 @@
+---
+title: Blog
+permalink: "/blog/"
+section: true
+nav-position: 2
+---
+
+<section>
+  {% for post in site.posts %}
+  <h3>
+    <a href="{{ post.url }}"
+      ><strong>{{ post.date | date: "%B %e, %Y" }}</strong> {{ post.title }}</a
+    >
+  </h3>
+  {% endfor %}
+</section>

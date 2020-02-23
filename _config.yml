@@ -1,18 +1,15 @@
 permalink: /:title/
 
-title : Tom Joynt
+title: Tom Joynt
 tagline: Awesome Things
-author :
-  name : Tom Joynt
-  email : tpjoynt@gmail.com
-  github : tpjoynt
-  twitter : tpjoynt
-
-include: ['_sections']
+author:
+  name: Tom Joynt
+  email: tpjoynt@gmail.com
+  github: tpjoynt
+  twitter: tpjoynt
 
 defaults:
-  -
-    values:
+  - values:
       layout: "default"
 
-production_url : http://tpjoynt.github.com
+production_url: http://tpjoynt.github.com

@@ -1,5 +1,7 @@
 ---
 title: "Books / Resources"
+section: true
+nav-position: 3
 ---
 
 "Is there a book for that?"
@@ -8,7 +10,7 @@ Random collection of books / links / resources that I like and have helped me in
 
 ### Management and Companies
 
-[The Toyota Way](https://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer/dp/0071392319) ([wiki article](https://en.wikipedia.org/wiki/The_Toyota_Way))
+[The Toyota Way](https://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer/dp/0071392319) ([wiki article](https://en.wikipedia.org/wiki/The_Toyota_Way) [my notes](/booknotes/toyota-way-notes/))
 
 [High output management](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884)
 
